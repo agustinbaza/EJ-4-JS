@@ -1,11 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&family=Arvo&family=Bebas+Neue&family=Black+Han+Sans&family=Londrina+Outline&family=Montserrat:wght@300&family=Open+Sans&family=Orbitron&family=Poppins&family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap");
+
 * {
-    margin: 0px;
-    border: 0px;
-    font-size: 18px;
-  }
+  margin: 0px;
+  border: 0px;
+  font-size: 20px;
+  font-family: "Anuphan", sans-serif;
+}
 
 .navbar {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #000000 0%, #40cbf7 100%);
+}
+
+.contenedores {
+  padding: 15px;
+  background-color: #12121c;
+  color: aliceblue;
+  margin-top: 10px;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.acomodar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .contenedores {
+    padding: 15px;
+    background-color: #12121c;
+    color: aliceblue;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
   }
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .contenedores {
+    padding: 15px;
+    background-color: #12121c;
+    color: aliceblue;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .acomodar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+  }
+}
