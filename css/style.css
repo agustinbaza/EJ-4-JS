@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-size: 18px;
+  }
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
