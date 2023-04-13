@@ -44,6 +44,13 @@ body {
   text-shadow: 0 0 5px #40cbf7, 0 0 10px #40cbf7;
 }
 
+footer {
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /* dispositivos small */
 
 @media all and (max-width: 767px) {
